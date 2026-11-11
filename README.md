@@ -1,58 +1,193 @@
-<div align="center">
-  <h1>Fernando Agustino</h1>
-  <p>Information Systems · Frontend & Android Development</p>
-  <p>
-    <a href="https://github.com/nosuferatou">GitHub</a> ·
-    <a href="https://github.com/nosuferatou?tab=repositories">Repositories</a> ·
-    <a href="https://nongki-app.vercel.app">Nongki App</a>
-  </p>
+ <div align="center">
+
+<h1 align="center">Fernando Agustino</h1>
+
+**Information Systems · Frontend & Android Development**
+
+Building web applications, mobile interfaces, and digital experiences.
+
+[GitHub](https://github.com/nosuferatou) · [Repositories](https://github.com/nosuferatou?tab=repositories) · [Personal Portfolio](https://github.com/nosuferatou/porto-web) · [Portfolio Website](https://porto-web-fernando.vercel.app/) · [Nongki App](https://github.com/nosuferatou/nongki-app) · [Live Website](https://nongki-app.vercel.app)
+
 </div>
 
-<table>
-  <tr>
-    <td width="27%" valign="top" align="center">
-      <img src="https://github.com/nosuferatou.png" width="112" alt="Fernando Agustino's GitHub avatar" />
-      <h3>Profile</h3>
-      <p><strong>Fernando Agustino</strong></p>
-      <p>Information Systems<br />Universitas Multimedia Nusantara</p>
-      <p>My work combines frontend development, Android applications, and visual design.</p>
-    </td>
-    <td width="39%" valign="top">
-      <h3>Technologies & Tools</h3>
-      <p><strong>Development</strong><br />HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Kotlin, PHP, MySQL</p>
-      <p><strong>Workflow & Design</strong><br />Prisma, Git, WordPress, Elementor, WPBakery, Figma, Photoshop, Illustrator</p>
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,kotlin,androidstudio,php,mysql,prisma,git,github,figma,ps,ai&perline=6" width="100%" alt="Development and design tools" />
-      <h3>Current Focus</h3>
-      <p>Nongki App — working on discovery flows, profiles, temporary availability, and mutual matching.</p>
-    </td>
-    <td width="34%" valign="top" align="center">
-      <h3>GitHub Overview</h3>
-      <img src="https://github-stats-extended.vercel.app/api?username=nosuferatou&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark" width="100%" alt="GitHub statistics" />
-      <br />
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nosuferatou&layout=compact&langs_count=6&hide_border=true&theme=github_dark" width="100%" alt="Most-used languages" />
-    </td>
-  </tr>
-</table>
+<br />
 
 ---
 
-## Selected Project
+<div align="center">
 
-### [Nongki App](https://github.com/nosuferatou/nongki-app) · [Live Website](https://nongki-app.vercel.app)
+## Profile
 
-A work-in-progress web app exploring how people nearby can find others who are open to hanging out. Current areas of focus include profiles, temporary availability, shared interests, and mutual matching.
+<br />
 
-**Stack:** Next.js · TypeScript · React · Tailwind CSS · Prisma · Leaflet
+<img src="https://github.com/nosuferatou.png" width="112" alt="Fernando Agustino" />
 
-## Other Repositories
+<br />
 
-[Sample MVVM](https://github.com/nosuferatou/samplemvvm) · [Project 1](https://github.com/nosuferatou/project1)
+**Information Systems Graduate**
 
-## Other Work
+Universitas Multimedia Nusantara
 
-- **Web & CMS:** Website content updates using WordPress, Elementor, and WPBakery.
-- **Web application:** PHP and MySQL development for Sigap Desa, a community information system.
-- **Android:** Kotlin-based mobile development and API-connected interface work.
-- **Research:** Retinal-lesion detection and segmentation using YOLOv8 and U-Net.
-- **Visual design:** Digital content, banners, thumbnails, and video-production support.
+<br />
 
+I work across frontend development, Android applications, and visual design. I enjoy building functional interfaces, exploring new technologies, and turning ideas into practical digital experiences.
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+## Tech Stack
+
+<br />
+
+### Development
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,kotlin,androidstudio,php,mysql,prisma&perline=6" alt="Development technologies" />
+
+<br />
+
+HTML · CSS · JavaScript · TypeScript · React · Next.js · Tailwind CSS · Kotlin · PHP · MySQL · Prisma
+
+<br /><br />
+
+### Tools & Design
+
+<img src="https://skillicons.dev/icons?i=git,github,figma,ps,ai&perline=5" alt="Tools and design software" />
+
+<br />
+
+Git · GitHub · Figma · Photoshop · Illustrator · WordPress · Elementor · WPBakery
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+## Current Project
+
+<br />
+
+### [Nongki App](https://github.com/nosuferatou/nongki-app)
+
+[Live Website ↗](https://nongki-app.vercel.app)
+
+<br />
+
+A web application exploring how people nearby can discover others who are open to hanging out.
+
+The project focuses on profiles, temporary availability, shared interests, and mutual matching.
+
+<br />
+
+**Next.js** · **TypeScript** · **React** · **Tailwind CSS** · **Prisma** · **Leaflet**
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+## Other Projects
+
+<br />
+
+### [Personal Portfolio](https://github.com/nosuferatou/porto-web)
+
+[Live Website ↗](https://porto-web-fernando.vercel.app/)
+
+A personal portfolio website showcasing projects, development experience, and technical skills.
+
+<br />
+
+### [Sample MVVM](https://github.com/nosuferatou/samplemvvm)
+
+Android development project exploring the MVVM architectural pattern.
+
+<br />
+
+### [Project 1](https://github.com/nosuferatou/project1)
+
+Personal development project.
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+## Experience & Work
+
+<br />
+
+**Web & CMS**
+
+Website content management using WordPress, Elementor, and WPBakery.
+
+<br />
+
+**Web Application Development**
+
+PHP and MySQL development for Sigap Desa, a community information system for village population and disaster-risk data.
+
+<br />
+
+**Android Development**
+
+Kotlin-based mobile development, API integration, and UI implementation.
+
+<br />
+
+**Research**
+
+Retinal lesion detection and segmentation using YOLOv8 and U-Net.
+
+<br />
+
+**Visual Design**
+
+Digital content, banners, thumbnails, and video-production support.
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+## GitHub Statistics
+
+<br />
+
+<img src="https://github-stats-extended.vercel.app/api?username=nosuferatou&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark" width="100%" alt="GitHub statistics" />
+
+<br /><br />
+
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nosuferatou&layout=compact&langs_count=6&hide_border=true&theme=github_dark" width="100%" alt="Most-used programming languages" />
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+<br />
+
+*Designing, building, and learning.*
+
+<br />
+
+</div>
