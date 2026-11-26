@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 340" width="100%" height="100%" style="background:#050c18; border-radius:8px; font-family:'Courier New',Courier,monospace;">
+  <defs>
+    <!-- Underwater Depth Gradient -->
+    <linearGradient id="tankWater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1931" />
+      <stop offset="60%" stop-color="#061224" />
+      <stop offset="100%" stop-color="#030813" />
+    </linearGradient>
+
+    <!-- Caustic Light Pattern -->
+    <linearGradient id="caustic" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.02" />
+      <stop offset="75%" stop-color="#38bdf8" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+
+  <!-- Tank Outer Frame -->
+  <rect x="2" y="2" width="736" height="336" rx="6" fill="#040b16" stroke="#0e2a47" stroke-width="4" />
+
+  <!-- Inner Water -->
+  <rect x="10" y="10" width="720" height="320" rx="4" fill="url(#tankWater)" />
+
+  <!-- Caustic top shimmer -->
+  <rect x="10" y="10" width="720" height="40" fill="url(#caustic)" />
+
+  <!-- Subtle Pixel Waterline -->
+  <g fill="#164e63" opacity="0.6">
+    <rect x="14" y="14" width="24" height="2" />
+    <rect x="46" y="14" width="36" height="2" />
+    <rect x="90" y="14" width="28" height="2" />
+    <rect x="126" y="14" width="44" height="2" />
+    <rect x="178" y="14" width="30" height="2" />
+    <rect x="216" y="14" width="50" height="2" />
+    <rect x="274" y="14" width="40" height="2" />
+    <rect x="322" y="14" width="60" height="2" />
+    <rect x="390" y="14" width="40" height="2" />
+    <rect x="438" y="14" width="54" height="2" />
+    <rect x="500" y="14" width="32" height="2" />
+    <rect x="540" y="14" width="46" height="2" />
+    <rect x="594" y="14" width="38" height="2" />
+    <rect x="640" y="14" width="50" height="2" />
+    <rect x="698" y="14" width="24" height="2" />
+  </g>
+
+  <!-- Aquatic Bed: Seabed and Sand Pixels -->
+  <rect x="10" y="306" width="720" height="24" fill="#091a2f" />
+  <g fill="#132e4f">
+    <rect x="10" y="302" width="720" height="4" />
+    <rect x="24" y="298" width="80" height="4" />
+    <rect x="140" y="298" width="110" height="4" />
+    <rect x="280" y="298" width="70" height="4" />
+    <rect x="380" y="298" width="90" height="4" />
+    <rect x="500" y="298" width="130" height="4" />
+    <rect x="650" y="298" width="70" height="4" />
+  </g>
+  <g fill="#1e436d">
+    <rect x="40" y="312" width="8" height="4" />
+    <rect x="90" y="318" width="12" height="4" />
+    <rect x="180" y="314" width="6" height="4" />
+    <rect x="250" y="320" width="10" height="4" />
+    <rect x="330" y="312" width="8" height="4" />
+    <rect x="420" y="316" width="12" height="4" />
+    <rect x="530" y="314" width="8" height="4" />
+    <rect x="620" y="318" width="10" height="4" />
+    <rect x="680" y="312" width="8" height="4" />
+  </g>
+
+  <!-- Pixel Aquarium Plants: Left Clump -->
+  <g fill="#0e7490">
+    <!-- Tall Grass Stem 1 -->
+    <rect x="30" y="250" width="6" height="52" />
+    <rect x="34" y="210" width="6" height="40" />
+    <rect x="38" y="170" width="6" height="40" />
+    <rect x="42" y="150" width="6" height="20" />
+    <!-- Grass Stem 2 -->
+    <rect x="50" y="260" width="6" height="42" />
+    <rect x="54" y="220" width="6" height="40" />
+    <rect x="50" y="190" width="6" height="30" />
+    <!-- Small Shrub -->
+    <rect x="66" y="276" width="6" height="26" />
+    <rect x="72" y="282" width="6" height="20" />
+  </g>
+  <g fill="#155e75">
+    <rect x="26" y="264" width="4" height="38" />
+    <rect x="46" y="270" width="4" height="32" />
+    <rect x="62" y="286" width="4" height="16" />
+  </g>
+
+  <!-- Pixel Aquarium Plants: Right Clump -->
+  <g fill="#0e7490">
+    <rect x="680" y="240" width="6" height="62" />
+    <rect x="674" y="200" width="6" height="40" />
+    <rect x="670" y="160" width="6" height="40" />
+    <rect x="666" y="140" width="6" height="20" />
+    <!-- Right Stem 2 -->
+    <rect x="654" y="250" width="6" height="52" />
+    <rect x="650" y="216" width="6" height="34" />
+    <rect x="654" y="184" width="6" height="32" />
+  </g>
+  <g fill="#155e75">
+    <rect x="686" y="260" width="4" height="42" />
+    <rect x="644" y="268" width="4" height="34" />
+    <rect x="636" y="286" width="6" height="16" />
+  </g>
+
+  <!-- Ambient Pixel Bubbles & Particles -->
+  <g fill="#38bdf8" opacity="0.45">
+    <rect x="64" y="130" width="4" height="4" />
+    <rect x="66" y="110" width="4" height="4" />
+    <rect x="64" y="90" width="4" height="4" />
+    <rect x="180" y="220" width="4" height="4" />
+    <rect x="220" y="100" width="4" height="4" />
+    <rect x="480" y="240" width="4" height="4" />
+    <rect x="520" y="160" width="4" height="4" />
+    <rect x="658" y="120" width="4" height="4" />
+    <rect x="656" y="96" width="4" height="4" />
+    <rect x="658" y="74" width="4" height="4" />
+  </g>
+  <g fill="#22d3ee" opacity="0.6">
+    <rect x="66" y="70" width="6" height="6" />
+    <rect x="360" y="90" width="4" height="4" />
+    <rect x="656" y="52" width="6" height="6" />
+  </g>
+
+  <!-- Dynamic Pixel Fish Sprite -->
+  <g id="fish">
+    <rect x="335" y="135" width="5" height="5" fill="#051b30" />
+      <rect x="340" y="135" width="5" height="5" fill="#051b30" />
+      <rect x="345" y="135" width="5" height="5" fill="#051b30" />
+      <rect x="330" y="140" width="5" height="5" fill="#051b30" />
+      <rect x="335" y="140" width="5" height="5" fill="#00f0ff" />
+      <rect x="340" y="140" width="5" height="5" fill="#00f0ff" />
+      <rect x="345" y="140" width="5" height="5" fill="#00f0ff" />
+      <rect x="350" y="140" width="5" height="5" fill="#051b30" />
+      <rect x="325" y="145" width="5" height="5" fill="#051b30" />
+      <rect x="330" y="145" width="5" height="5" fill="#00f0ff" />
+      <rect x="335" y="145" width="5" height="5" fill="#00f0ff" />
+      <rect x="340" y="145" width="5" height="5" fill="#0369a1" />
+      <rect x="345" y="145" width="5" height="5" fill="#0369a1" />
+      <rect x="350" y="145" width="5" height="5" fill="#00f0ff" />
+      <rect x="355" y="145" width="5" height="5" fill="#051b30" />
+      <rect x="320" y="150" width="5" height="5" fill="#051b30" />
+      <rect x="325" y="150" width="5" height="5" fill="#00f0ff" />
+      <rect x="330" y="150" width="5" height="5" fill="#00f0ff" />
+      <rect x="335" y="150" width="5" height="5" fill="#0369a1" />
+      <rect x="340" y="150" width="5" height="5" fill="#0369a1" />
+      <rect x="345" y="150" width="5" height="5" fill="#0369a1" />
+      <rect x="350" y="150" width="5" height="5" fill="#0369a1" />
+      <rect x="355" y="150" width="5" height="5" fill="#00f0ff" />
+      <rect x="360" y="150" width="5" height="5" fill="#051b30" />
+      <rect x="315" y="155" width="5" height="5" fill="#051b30" />
+      <rect x="320" y="155" width="5" height="5" fill="#00f0ff" />
+      <rect x="325" y="155" width="5" height="5" fill="#00f0ff" />
+      <rect x="330" y="155" width="5" height="5" fill="#0369a1" />
+      <rect x="335" y="155" width="5" height="5" fill="#0369a1" />
+      <rect x="340" y="155" width="5" height="5" fill="#0369a1" />
+      <rect x="345" y="155" width="5" height="5" fill="#0369a1" />
+      <rect x="350" y="155" width="5" height="5" fill="#0369a1" />
+      <rect x="355" y="155" width="5" height="5" fill="#0369a1" />
+      <rect x="360" y="155" width="5" height="5" fill="#00f0ff" />
+      <rect x="365" y="155" width="5" height="5" fill="#051b30" />
+      <rect x="310" y="160" width="5" height="5" fill="#051b30" />
+      <rect x="315" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="320" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="325" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="330" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="335" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="340" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="345" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="350" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="355" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="360" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="365" y="160" width="5" height="5" fill="#38efc9" />
+      <rect x="370" y="160" width="5" height="5" fill="#051b30" />
+      <rect x="385" y="160" width="5" height="5" fill="#051b30" />
+      <rect x="390" y="160" width="5" height="5" fill="#051b30" />
+      <rect x="305" y="165" width="5" height="5" fill="#051b30" />
+      <rect x="310" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="315" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="320" y="165" width="5" height="5" fill="#ffffff" />
+      <rect x="325" y="165" width="5" height="5" fill="#ffffff" />
+      <rect x="330" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="335" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="340" y="165" width="5" height="5" fill="#0284c7" />
+      <rect x="345" y="165" width="5" height="5" fill="#0284c7" />
+      <rect x="350" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="355" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="360" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="365" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="370" y="165" width="5" height="5" fill="#38efc9" />
+      <rect x="375" y="165" width="5" height="5" fill="#051b30" />
+      <rect x="380" y="165" width="5" height="5" fill="#051b30" />
+      <rect x="385" y="165" width="5" height="5" fill="#00f0ff" />
+      <rect x="390" y="165" width="5" height="5" fill="#00f0ff" />
+      <rect x="395" y="165" width="5" height="5" fill="#051b30" />
+      <rect x="300" y="170" width="5" height="5" fill="#051b30" />
+      <rect x="305" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="310" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="315" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="320" y="170" width="5" height="5" fill="#02111f" />
+      <rect x="325" y="170" width="5" height="5" fill="#ffffff" />
+      <rect x="330" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="335" y="170" width="5" height="5" fill="#0284c7" />
+      <rect x="340" y="170" width="5" height="5" fill="#0284c7" />
+      <rect x="345" y="170" width="5" height="5" fill="#0284c7" />
+      <rect x="350" y="170" width="5" height="5" fill="#0284c7" />
+      <rect x="355" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="360" y="170" width="5" height="5" fill="#0284c7" />
+      <rect x="365" y="170" width="5" height="5" fill="#0284c7" />
+      <rect x="370" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="375" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="380" y="170" width="5" height="5" fill="#38efc9" />
+      <rect x="385" y="170" width="5" height="5" fill="#00f0ff" />
+      <rect x="390" y="170" width="5" height="5" fill="#00f0ff" />
+      <rect x="395" y="170" width="5" height="5" fill="#051b30" />
+      <rect x="300" y="175" width="5" height="5" fill="#051b30" />
+      <rect x="305" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="310" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="315" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="320" y="175" width="5" height="5" fill="#ffffff" />
+      <rect x="325" y="175" width="5" height="5" fill="#ffffff" />
+      <rect x="330" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="335" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="340" y="175" width="5" height="5" fill="#0284c7" />
+      <rect x="345" y="175" width="5" height="5" fill="#0284c7" />
+      <rect x="350" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="355" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="360" y="175" width="5" height="5" fill="#0284c7" />
+      <rect x="365" y="175" width="5" height="5" fill="#0284c7" />
+      <rect x="370" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="375" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="380" y="175" width="5" height="5" fill="#38efc9" />
+      <rect x="385" y="175" width="5" height="5" fill="#00f0ff" />
+      <rect x="390" y="175" width="5" height="5" fill="#00f0ff" />
+      <rect x="395" y="175" width="5" height="5" fill="#051b30" />
+      <rect x="305" y="180" width="5" height="5" fill="#051b30" />
+      <rect x="310" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="315" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="320" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="325" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="330" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="335" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="340" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="345" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="350" y="180" width="5" height="5" fill="#0284c7" />
+      <rect x="355" y="180" width="5" height="5" fill="#0284c7" />
+      <rect x="360" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="365" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="370" y="180" width="5" height="5" fill="#38efc9" />
+      <rect x="375" y="180" width="5" height="5" fill="#051b30" />
+      <rect x="380" y="180" width="5" height="5" fill="#051b30" />
+      <rect x="385" y="180" width="5" height="5" fill="#00f0ff" />
+      <rect x="390" y="180" width="5" height="5" fill="#00f0ff" />
+      <rect x="395" y="180" width="5" height="5" fill="#051b30" />
+      <rect x="310" y="185" width="5" height="5" fill="#051b30" />
+      <rect x="315" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="320" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="325" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="330" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="335" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="340" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="345" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="350" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="355" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="360" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="365" y="185" width="5" height="5" fill="#38efc9" />
+      <rect x="370" y="185" width="5" height="5" fill="#051b30" />
+      <rect x="385" y="185" width="5" height="5" fill="#051b30" />
+      <rect x="390" y="185" width="5" height="5" fill="#051b30" />
+      <rect x="315" y="190" width="5" height="5" fill="#051b30" />
+      <rect x="320" y="190" width="5" height="5" fill="#00f0ff" />
+      <rect x="325" y="190" width="5" height="5" fill="#00f0ff" />
+      <rect x="330" y="190" width="5" height="5" fill="#0369a1" />
+      <rect x="335" y="190" width="5" height="5" fill="#0369a1" />
+      <rect x="340" y="190" width="5" height="5" fill="#0369a1" />
+      <rect x="345" y="190" width="5" height="5" fill="#0369a1" />
+      <rect x="350" y="190" width="5" height="5" fill="#0369a1" />
+      <rect x="355" y="190" width="5" height="5" fill="#0369a1" />
+      <rect x="360" y="190" width="5" height="5" fill="#00f0ff" />
+      <rect x="365" y="190" width="5" height="5" fill="#051b30" />
+      <rect x="320" y="195" width="5" height="5" fill="#051b30" />
+      <rect x="325" y="195" width="5" height="5" fill="#00f0ff" />
+      <rect x="330" y="195" width="5" height="5" fill="#00f0ff" />
+      <rect x="335" y="195" width="5" height="5" fill="#0369a1" />
+      <rect x="340" y="195" width="5" height="5" fill="#0369a1" />
+      <rect x="345" y="195" width="5" height="5" fill="#0369a1" />
+      <rect x="350" y="195" width="5" height="5" fill="#0369a1" />
+      <rect x="355" y="195" width="5" height="5" fill="#00f0ff" />
+      <rect x="360" y="195" width="5" height="5" fill="#051b30" />
+      <rect x="325" y="200" width="5" height="5" fill="#051b30" />
+      <rect x="330" y="200" width="5" height="5" fill="#00f0ff" />
+      <rect x="335" y="200" width="5" height="5" fill="#00f0ff" />
+      <rect x="340" y="200" width="5" height="5" fill="#0369a1" />
+      <rect x="345" y="200" width="5" height="5" fill="#0369a1" />
+      <rect x="350" y="200" width="5" height="5" fill="#00f0ff" />
+      <rect x="355" y="200" width="5" height="5" fill="#051b30" />
+      <rect x="330" y="205" width="5" height="5" fill="#051b30" />
+      <rect x="335" y="205" width="5" height="5" fill="#00f0ff" />
+      <rect x="340" y="205" width="5" height="5" fill="#00f0ff" />
+      <rect x="345" y="205" width="5" height="5" fill="#00f0ff" />
+      <rect x="350" y="205" width="5" height="5" fill="#051b30" />
+  </g>
+
+  <!-- 16-Bit RPG HUD Panel -->
+  <g id="hud">
+    <!-- HUD Box Background -->
+    <rect x="24" y="24" width="280" height="96" rx="4" fill="#040d1a" stroke="#164e63" stroke-width="2" opacity="0.92" />
+    <rect x="26" y="26" width="276" height="2" fill="#22d3ee" opacity="0.5" />
+
+    <!-- Stage & Level Badge -->
+    <text x="36" y="44" fill="#38bdf8" font-size="11" font-weight="bold" letter-spacing="1">STAGE 3: ADVANCED</text>
+    <text x="288" y="44" text-anchor="end" fill="#22d3ee" font-size="11" font-weight="bold">LVL 13</text>
+
+    <!-- Fish Species Title -->
+    <text x="36" y="60" fill="#e2e8f0" font-size="13" font-weight="bold">Azure Angelfish</text>
+
+    <!-- Progress Bar Frame -->
+    <rect x="36" y="70" width="244" height="12" fill="#020811" stroke="#0e3a5a" stroke-width="2" />
+    <rect x="38" y="72" width="32" height="8" fill="url(#barGrad)" />
+
+    <!-- Numeric Stats Row -->
+    <text x="36" y="98" fill="#94a3b8" font-size="10">XP: <tspan fill="#38bdf8" font-weight="bold">12,000</tspan></text>
+    <text x="140" y="98" fill="#94a3b8" font-size="10">YEAR: <tspan fill="#38bdf8" font-weight="bold">120</tspan></text>
+    <text x="288" y="98" text-anchor="end" fill="#67e8f9" font-size="10">130 to Elite</text>
+  </g>
+</svg>

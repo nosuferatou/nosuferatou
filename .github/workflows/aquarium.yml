@@ -1,0 +1,57 @@
+name: Update GitHub Aquarium
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: aquarium-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-aquarium:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Verify configuration
+        env:
+          AQUARIUM_TOKEN: ${{ secrets.AQUARIUM_TOKEN }}
+        run: |
+          if [ -z "$AQUARIUM_TOKEN" ]; then
+            echo "::error::Secret AQUARIUM_TOKEN is missing or empty."
+            exit 1
+          fi
+
+      - name: Generate Aquarium SVG
+        env:
+          GITHUB_USERNAME: ${{ vars.AQUARIUM_USERNAME || github.repository_owner }}
+          AQUARIUM_TOKEN: ${{ secrets.AQUARIUM_TOKEN }}
+        run: |
+          python scripts/generate-aquarium.py --output assets/aquarium.svg.tmp
+          mv assets/aquarium.svg.tmp assets/aquarium.svg
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/aquarium.svg
+          if git diff --staged --quiet; then
+            echo "No changes in assets/aquarium.svg. Skipping commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update github aquarium"
+          git push

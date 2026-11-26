@@ -166,6 +166,24 @@ Digital content, banners, thumbnails, and video-production support.
 
 <div align="center">
 
+## GitHub Aquarium
+
+<br />
+
+<img src="./assets/aquarium.svg" width="100%" alt="GitHub Aquarium pixel-art companion" />
+
+<br />
+
+*Pixel-art aquarium companion evolving with annual contributions.*
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
 ## GitHub Statistics
 
 <br />
