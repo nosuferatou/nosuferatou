@@ -170,11 +170,11 @@ Digital content, banners, thumbnails, and video-production support.
 
 <br />
 
-<img src="./assets/aquarium.png" width="100%" alt="GitHub Aquarium pixel-art companion" />
+<img src="koi/koi.gif" width="256" alt="Animated koi swimming in a pond" />
 
 <br />
 
-*Pixel-art aquarium companion evolving with annual contributions.*
+*An animated koi, generated daily from this GitHub profile.*
 
 </div>
 
