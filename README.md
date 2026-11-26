@@ -170,7 +170,7 @@ Digital content, banners, thumbnails, and video-production support.
 
 <br />
 
-<img src="./assets/aquarium.svg" width="100%" alt="GitHub Aquarium pixel-art companion" />
+<img src="./assets/aquarium.png" width="100%" alt="GitHub Aquarium pixel-art companion" />
 
 <br />
 

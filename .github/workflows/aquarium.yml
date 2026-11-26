@@ -25,6 +25,11 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pillow
+
       - name: Verify configuration
         env:
           AQUARIUM_TOKEN: ${{ secrets.AQUARIUM_TOKEN }}
@@ -34,22 +39,22 @@ jobs:
             exit 1
           fi
 
-      - name: Generate Aquarium SVG
+      - name: Generate Aquarium Image
         env:
           GITHUB_USERNAME: ${{ vars.AQUARIUM_USERNAME || github.repository_owner }}
           AQUARIUM_TOKEN: ${{ secrets.AQUARIUM_TOKEN }}
         run: |
-          python scripts/generate-aquarium.py --output assets/aquarium.svg.tmp
-          mv assets/aquarium.svg.tmp assets/aquarium.svg
+          python scripts/generate-aquarium.py --output assets/aquarium.png.tmp
+          mv assets/aquarium.png.tmp assets/aquarium.png
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/aquarium.svg
+          git add assets/aquarium.png
           if git diff --staged --quiet; then
-            echo "No changes in assets/aquarium.svg. Skipping commit."
+            echo "No changes in assets/aquarium.png. Skipping commit."
             exit 0
           fi
 
